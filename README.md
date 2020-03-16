@@ -6,3 +6,5 @@ List of algorithms and data structures.
 
 1. Arrays
 2.
+
+### Problems
