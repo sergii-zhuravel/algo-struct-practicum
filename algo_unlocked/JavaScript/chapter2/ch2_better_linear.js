@@ -1,13 +1,12 @@
-// LINEAR-SEARCH(A, n, x)
+// Better LINEAR-SEARCH(A, n, x)
 
-function linearSearch(a, n, x) {
-  let answer = null;
+function linearSearch(A, n, x) {
   for (let i = 0; i < n; i++) {
-    if (a[i] === x) {
-      answer = i;
+    if (A[i] === x) {
+      return i;
     }
   }
-  return answer;
+  return null;
 }
 
 const arr = [2, 3, 4, 5];
